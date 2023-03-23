@@ -494,51 +494,6 @@ a:focus {
   text-transform: uppercase;
 }
 
-.contact_section .form_container input {
-  width: 100%;
-  border: none;
-  height: 50px;
-  margin-bottom: 25px;
-  padding-left: 15px;
-  outline: none;
-  color: #101010;
-  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
-}
-
-.contact_section .form_container input::-webkit-input-placeholder {
-  color: #344d77;
-}
-
-.contact_section .form_container input:-ms-input-placeholder {
-  color: #344d77;
-}
-
-.contact_section .form_container input::-ms-input-placeholder {
-  color: #344d77;
-}
-
-.contact_section .form_container input::placeholder {
-  color: #344d77;
-}
-
-.contact_section .form_container input.message-box {
-  height: 120px;
-}
-
-.contact_section .form_container button {
-  border: none;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 12px 55px;
-  background-color: #ff7241;
-  color: #ffffff;
-  border-radius: 5px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  border: none;
-}
-
 .contact_section .form_container button:hover {
   background-color: #f43f00;
 }
@@ -558,6 +513,16 @@ a:focus {
 
 .contact_section .why_box h5 {
   font-weight: 700;
+}
+
+.contact_section .img-box {
+  position: relative;
+}
+
+.contact_section .img-box img {
+  max-width: 100%;
+  position: relative;
+  z-index: 2;
 }
 
 .client_section .client_container {
